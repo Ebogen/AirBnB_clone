@@ -1,19 +1,40 @@
+/********************************************
+* body styling
+*********************************************/
 html, body {
-    height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #484848;
+  font-size: 14px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  min-height: 100vh;
 }
-body {
-    margin: 0px;
-    padding: 0px; 
-    color: #181818;
-    font-size: 16px;
-    font-family: Circular, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    display: flex;
-    flex-direction: column;
+
+html {
+  position: relative;
 }
+
+/********************************************
+* end of body styling
+*********************************************/
+
+/***********************************
+* Div container styling
+***********************************/
 .container {
     max-width: 1000px;
     margin: 30px auto;
-    width: 100%;
-    flex: 1 0 auto;
 }
 
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+/***********************************
+* end of Div container styling
+***********************************/

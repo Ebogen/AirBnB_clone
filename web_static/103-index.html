@@ -1,233 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <title>AirBnB clone</title>
-    <link rel="stylesheet" type="text/css" href="styles/103-common.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-header.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-footer.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-filters.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-places.css" />
-    <link rel='shortcut icon' href="../images/icon.png" />
-</head>
-
-<body>
-    <header title="Logo"> </header>
+    <link rel="stylesheet" href="styles/103-common.css">
+    <link rel="stylesheet" href="styles/103-header.css">
+    <link rel="stylesheet" href="styles/103-footer.css">
+    <link rel="stylesheet" href="styles/103-filters.css">
+    <link rel="stylesheet" href="styles/103-places.css">
+    <link rel="icon" href="images/icon.png">
+  </head>
+  <body>
+    <header></header>
     <div class="container">
-        <section class="filters" title="Search Bar">
-            <button title="search button">
-                Search
-            </button>
-            <div class="locations" role="menu">
-                <h3>
-                    States
-                </h3>
-                <h4>
-                    California, Arizona...
-                </h4>
-                <ul class="popover">
-                    <li>
-                        <h2>Arizona:</h2>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>Page</li>
-                            <li>Page2</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2>California:</h2>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>San Francisco</li>
-                            <li>Los Altos</li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="amenities" role="menu">
-                <h3>
-                    Amenities
-                </h3>
-                <h4>
-                    Internet, Kitchen...
-                </h4>
-                <ul class="popover">
-                    <li>Internet</li>
-                    <li>TV</li>
-                    <li>Kitchen</li>
-                    <li>Iron</li>
-                </ul>
-            </div>
-        </section>
-        <section class="places" role="contentinfo"> 
-            <h1>Places</h1>
-            <article>
-                <h2>My Home</h2>
-                <div class="price_by_night">
-                    <h3>$80</h3>
-                </div>
-                <div class="information" role="list">
-                    <div class="max_guest" title="Number of Guests">
-                        <h3>2 Guests</h3>
-                    </div>
-                    <div class="number_rooms" title="Number of Rooms">
-                        <h3>1 Bedroom</h3>
-                    </div>
-                    <div class="number_bathrooms" title="Number of Bathrooms">
-                        <h3>1 Bathroom</h3>
-                    </div>
-                </div>
-                <div class="user">
-                    <b>Owner:</b> Johnny
-                </div>
-                <div class="description">
-                    <p> This is a lovely 1 bedroom and 1 bathroom apartment that
-                        can accommodate 2 people. It locates at the center of
-                        Shanghai and next to subway line 1,1 stop to People
-                        Square, 2 stops to Bund, 3 stops to Jingan Temple.
-                    </p>
-                </div>
-
-                <div class="amenities" role="list">
-                    <h2>Amenities</h2>
-                    <ul>
-                        <li class="tv">TV</li>
-                        <li class="wifi">Wifi</li>
-                        <li class="pets">Pet Friendly</li>
-                    </ul>
-                    <div class=reviews>
-                        <h2>2 Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Bob Dylan the 27th January 2017</h3>
-                                <p>Runshi is an epic host. Nothing more I can say. 5 star!</p>
-                            </li>
-                            <li>
-                                <h3>From Connor the 4th January 2017</h3>
-                                <p>Highly recommended!</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h2>Tiny House</h2>
-                <div class="price_by_night">
-                    <h3>$65</h3>
-                </div>
-                <div class="information" role="list">
-                    <div class="max_guest" title="Number of Guests">
-                        <h3>4 Guests</h3>
-                    </div>
-                    <div class="number_rooms" title="Number of Rooms">
-                        <h3>2 Bedroom</h3>
-                    </div>
-                    <div class="number_bathrooms" title="Number of Bathrooms">
-                        <h3>1 Bathroom</h3>
-                    </div>
-                </div>
-                <div class="user">
-                    <b>Owner:</b> Adrienne
-                </div>
-                <div class="description">
-                    <p> Our place is a private, affordable stand-alone guest
-                        house centrally located just minutes to French
-                        Quarters, downtown, the Fair Grounds(Jazz Fest) and
-                        City Park. The guest house is a quaint, 400 square ft.
-                        with a full bath, mini kitchen, & living room. The
-                        extra high ceilings make the home feel more spacious.
-                        The sofa converts to a bed also. We have a hand made counter
-                        area that adds character to the room and a great
-                        porch/deck to relax on and have a glass of Merlot.
-                    </p>
-                </div>
-                <div class="amenities" role="list">
-                    <h2>Amenities</h2>
-                    <ul>
-                        <li class="pets">Pet Friendly</li>
-                    </ul>
-                    <div class=reviews>
-                        <h2>1 Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Max the 15th January 2017</h3>
-                                <p>
-                                    Fantastic place. It was clean, Adrienne was great (even
-                                    though we did not meet in person) and everything went super
-                                    smooth. Location is also greate if you like running and 
-                                    something a bit more quiet. I would suggest a car or take
-                                    into consideration that you might have to Uber into the 
-                                    city from the location. Overall, would recommend the place
-                                    anytime. 
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h2>A suite</h2>
-                <div class="price_by_night">
-                    <h3>$190</h3>
-                </div>
-                <div class="information">
-                    <div class="max_guest" title="Number of Guests">
-                        <h3>4 Guests</h3>
-                    </div>
-                    <div class="number_rooms" title="Number of Rooms">
-                        <h3>4 Bedroom</h3>
-                    </div>
-                    <div class="number_bathrooms" title="Number of Bathrooms">
-                        <h3>3 Bathroom</h3>
-                    </div>
-                </div>
-                <div class="user">
-                    <b>Owner:</b> Lue
-                </div>
-                <div class="description">
-                    <p> This is a premium quality room located in the
-                        most important area of New York. It is close to downtown
-                        commerces and has a beatiful sight of central park.
-                        You will have all the amenities you desire and will
-                        definitely enjoy a great time.
-                        By yourself, with your lover, or your family, you will
-                        feel luxury from top to bottom.
-                    </p>
-                </div>
-                <div class="amenities" role="list">
-                    <h2>Amenities</h2>
-                    <ul>
-                        <li class="tv">TV</li>
-                        <li class="wifi">Wifi</li>
-                    </ul>
-                    <div class=reviews>
-                        <h2>3 Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Kamie Nean the 6th September 2017</h3>
-                                <p>I felt like a Queen during my stay!</p>
-                            </li>
-                            <li>
-                                <h3>From Heman the 5th October 2017</h3>
-                                <p>Beautiful Place.</p>
-                            </li>
-                            <li>
-                                <h3>From Numa the 15th August 2017</h3>
-                                <p>Great view and service!</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-        </section>
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4> Kenya...</h4>
+          <ul class="popover">
+            <li>
+              <ul>
+                <li><h2>Nairobi</h2></li>
+                <li>Kilimani</li>
+                <li>Upper Hill</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><h2>Mombasa</h2></li>
+                <li>Nyali</li>
+                <li>Malindi</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><h2>Nakuru</h2></li>
+                <li>Milimani</li>
+                <li>Lakeview Apartments</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><h2>Kisumu</h2></li>
+                <li>Laville Suites</li>
+                <li>Milimani</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>TV</li>
+            <li>Kitchen</li>
+            <li>Games</li>
+          </ul>
+        </div>
+        <button>Search</button>
+      </section>
+      <section class="places">
+        <h1>Places</h1>
+        <article>
+          <h2>My home</h2>
+          <div class="price_by_night">$45</div>
+          <div class="information">
+            <div class="max_guest"><h4>2 Guests</h4></div>
+            <div class="number_rooms"><h4>1 Bedroom</h4></div>
+            <div class="number_bathrooms"><h4>1 Bathroom</h4></div>
+          </div>
+          <div class="user">
+            <h3>Owner:</h3><h4> Mr.John</h4>
+          </div>
+          <div class="description">
+            <h4>This stylishly furnished Studio has a large garden with Lake Victoria Lake front. It is 2 minutes walk to the beach. As part of a gated community, there is 24 hour security. It is 20-25 minutes to Kisumu Airport and 30-35 minutes to Kisumu town. The compound is great for bird-watching, peace and quiet. Great when solo or accompanied. Has WIFI, cable TV. A washer is available. On site secure parking.</h4>
+          </div>
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li class="liTV">TV</li>
+              <li class="liWifi">Wifi</li>
+              <li class="liPets">Pets friendly</li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Bob Ryan the 27th January 2017</h3>
+                <p>John is an epic host. Nothing more I can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Rob the 4th January 2017</h3>
+                <p>Highly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h2>Tiny house</h2>
+          <div class="price_by_night">$20</div>
+          <div class="information">
+            <div class="max_guest"><h4>1 Guests</h4></div>
+            <div class="number_rooms"><h4> Studio Room</h4></div>
+            <div class="number_bathrooms"><h4>1 Bathroom</h4></div>
+          </div>
+          <div class="user">
+            <h3>Owner:</h3><h4> Ms. Mily</h4>
+          </div>
+          <div class="description">
+            <h4>Lorem ipsum dolor sit amet consectetur adipiscing elit sapien, eleifend odio ridiculus sodales egestas sem etiam, quis nostra sociosqu enim luctus commodo in. Eleifend platea purus sapien sociis netus convallis nisi sociosqu sed risus fames rutrum, quam mi nullam proin placerat vitae vehicula laoreet ut hendrerit nascetur. Odio potenti quam elementum leo urna bibendum ante quis platea ad, enim quisque imperdiet congue morbi vitae facilisis netus rhoncus, pharetra proin fusce maecenas velit placerat cum erat cubilia.</h4>
+          </div>
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li class="liPets">Pets friendly</li>
+              <li class="liTV">TV</li>
+              <li class="liWifi">Wifi</li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Maxwell the 15th January 2017</h3>
+                <p>Fantastic place. It was clean, Adrienne was great (even though we did not meet in person) and everything went super smooth. Location is also great if you like running and something a bit more quiet. I would suggest a car or take into consideration that you might have to Uber into the city from the location. Overall, would recommend the place anytime.</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h2>A suite</h2>
+          <div class="price_by_night">$50</div>
+          <div class="information">
+            <div class="max_guest"><h4>3 Guests</h4></div>
+            <div class="number_rooms"><h4>2 Bedrooms</h4></div>
+            <div class="number_bathrooms"><h4>2 Bathrooms</h4></div>
+          </div>
+          <div class="user">
+            <h3>Owner:</h3><h4> Mr. Fred</h4>
+          </div>
+          <div class="description">
+            <h4>Lorem ipsum dolor sit amet consectetur adipiscing elit sapien, eleifend odio ridiculus sodales egestas sem etiam, quis nostra sociosqu enim luctus commodo in. Eleifend platea purus sapien sociis netus convallis nisi sociosqu sed risus fames rutrum, quam mi nullam proin placerat vitae vehicula laoreet ut hendrerit nascetur. Odio potenti quam elementum leo urna bibendum ante quis platea ad, enim quisque imperdiet congue morbi vitae facilisis netus rhoncus, pharetra proin fusce maecenas velit placerat cum erat cubilia.</h4>
+          </div>
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li class="liTV">TV</li>
+              <li class="liPets">Pets friendly</li>
+              <li class="liWifi">Wifi</li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>3 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Juanet the 20th January 2017</h3>
+                <p>Excellent service</p>
+              </li>
+              <li>
+                <h3>From Lauret the 5th February 2017</h3>
+                <p>Amazing place</p>
+              </li>
+              <li>
+                <h3>From Sebah the 5th February 2017</h3>
+                <p>Good place to stay!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
     </div>
     <footer>
-        <p>Holberton School</p>
+      Best School
     </footer>
-</body>
-
+  </body>
 </html>
