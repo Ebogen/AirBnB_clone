@@ -1,23 +1,20 @@
 #!/usr/bin/pyhon3
 """
-This represents the base_model for our first full web application: AirBnB clone
+This is a Parent class that will be inherited
 """
-import uuid
 import models
+import uuid
 from datetime import datetime
 
 """
-At this point we define all the common attributes/methods for other classes
+class BaseModel that defines all common attributes/methods for other classes
 """
 
 
 class BaseModel:
-    """
-    We are going to define all attributes
-    """
 
     def __init__(self, *args, **kwargs):
-        """we initialize the attributes used
+        """initializing all attributes
         """
 
         self.id = str(uuid.uuid4())
@@ -36,8 +33,10 @@ class BaseModel:
 
     def __str__(self):
         """
-        The function returns:
-        the class name, id and attribute dictionary of the base_model
+        Returns:
+        -class name
+        -id and
+        -attribute dictionary
         """
         class_name = self.__class__.__name__
         return "[{}] ({}) {}".format(class_name, self.id, self.__dict__)
